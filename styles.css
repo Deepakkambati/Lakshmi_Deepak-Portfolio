@@ -149,19 +149,28 @@ header {
     font-size:18px;
     margin-top:10px;
 }
-.contact-button{
-    background-color: transparent;
-    border:1px solid #c778DD;
-    color:var(--white);
-    border-radius:10px;
-    padding:10px 16px;
-    margin-right:5px;
-    cursor:pointer;
-    transition:background-color 0.5s ease;
+.contact-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
+  border: 1px solid #c778DD;
+  color: var(--white);
+  border-radius: 10px;
+  padding: 10px 16px;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  font-family: inherit;
+  font-size: 1rem;
 }
-.contact-button:hover{
-    background-color:#c778DD;
+
+.contact-button:hover {
+  background-color: #c778DD;
+  color: #000; /* Optional: to make text pop on hover */
 }
+
 .contact-button .social{
   height: 25px;
   width:25px;
@@ -171,8 +180,7 @@ header {
     text-align:Center;
 }
 .contact-button i {
-  font-size: 16px;
-
+  font-size:16px;
 }
 
 /*responsive for hero section*/
