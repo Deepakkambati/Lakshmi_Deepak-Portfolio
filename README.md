@@ -51,5 +51,5 @@ Wanna talk code or collab? Reach out via the contact form or connect below:
 
 🐱 GitHub: https://github.com/Deepakkambati
 
-📧 Email: deepakkambati@example.com
+📧 Email: deepakkambati@gmail.com
 
